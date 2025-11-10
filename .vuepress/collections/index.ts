@@ -30,6 +30,7 @@ import engineering from "./engineering";
 import components from "./components";
 import serve from "./serve";
 import tools from "./tools";
+import more from "./more";
 
 /**
  * 导出所有的 collections
@@ -42,4 +43,5 @@ export default defineCollections([
   components,
   serve,
   tools,
+  more,
 ]);

@@ -21,4 +21,15 @@ export default defineNavbarConfig([
   },
   { text: "🖥️ 服务端与全栈", link: "/serve/", activeMatch: "/serve/" },
   { text: "📦 工具资源库", link: "/tools/", activeMatch: "/tools/" },
+  {
+    text: "✨️ 更多",
+    activeMatch: "/more/",
+    items: [
+      {
+        text: "🔖 书签",
+        link: "/more/bookmark/development/",
+        activeMatch: "/more/bookmark/",
+      },
+    ],
+  },
 ]);
