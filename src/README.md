@@ -9,7 +9,7 @@ config:
       actions:
         - theme: brand
           text: 快速开始 →
-          link: /basic/
+          link: /core-fundamentals/adzhqh55/
         - theme: alt
           text: Github
           link: https://github.com/sunnyboy-mu
