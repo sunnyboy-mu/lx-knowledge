@@ -14,17 +14,22 @@ export default defineNavbarConfig([
     activeMatch: "/core-fundamentals/",
   },
   {
-    text: "🌐 框架与生态",
+    text: "🌐 框架生态",
     link: "/frameworks-ecosystem/2e95sxbz/",
     activeMatch: "/frameworks-ecosystem/",
   },
   {
-    text: "⚙️ 工程化与工具链",
+    text: "⚙️ 工程化",
     link: "/engineering-tooling/",
     activeMatch: "/engineering-tooling/",
   },
   {
-    text: "🚀 进阶与前沿",
+    text: "📦️ 多端",
+    link: "/cross-platform/xwnvrxjz/",
+    activeMatch: "/cross-platform/",
+  },
+  {
+    text: "🚀 前沿",
     link: "/advanced-future-tech/a7lo9rj8/",
     activeMatch: "/advanced-future-tech/",
   },
@@ -48,6 +53,10 @@ export default defineNavbarConfig([
       {
         text: "🔖 书签",
         link: "/more/bookmark/",
+      },
+      {
+        text: "前端面试集锦 ",
+        link: "/more/interview/",
       },
     ],
   },

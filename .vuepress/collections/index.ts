@@ -29,6 +29,7 @@ import coreFundamentals from "./core-fundamentals";
 import frameworksEcosystem from "./frameworks-ecosystem";
 import advancedFutureTech from "./advanced-future-tech";
 import engineeringTooling from "./engineering-tooling";
+import crossPlatform from "./cross-platform";
 
 /**
  * 导出所有的 collections
@@ -39,5 +40,6 @@ export default defineCollections([
   coreFundamentals,
   frameworksEcosystem,
   advancedFutureTech,
+  crossPlatform,
   engineeringTooling,
 ]);
