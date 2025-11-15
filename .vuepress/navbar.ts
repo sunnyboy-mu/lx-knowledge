@@ -7,56 +7,66 @@
 import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export default defineNavbarConfig([
-  { text: "🏠 首页", link: "/" },
+  { text: "首页", link: "/", icon: "icon-home" },
   {
-    text: "📚 核心基础",
-    link: "/core-fundamentals/adzhqh55/",
-    activeMatch: "/core-fundamentals/",
+    text: "Web 前端",
+    icon: "icon-yingyong",
+    activeMatch: "/web/",
+    prefix: "/web/",
+    items: [
+      {
+        text: "核心基础",
+        icon: "icon-xingqiu",
+        activeMatch: "/core/",
+        link: "core/90j9jwqp/",
+      },
+      {
+        text: "框架生态",
+        icon: "icon-mti-shengtaihuanjing",
+        activeMatch: "/frameworks/",
+        link: "frameworks/2e95sxbz/",
+      },
+      {
+        text: "工程化",
+        icon: "icon-jiqunguanliicon",
+        activeMatch: "/engineering/",
+        link: "engineering/0i0fxti7/",
+      },
+      {
+        text: "多端开发",
+        icon: "icon-kuaduanjiaohu",
+        activeMatch: "/platform/",
+        link: "platform/xwnvrxjz/",
+      },
+      {
+        text: "前沿领域",
+        icon: "icon-chuangyeqianyan",
+        activeMatch: "/advanced/",
+        link: "advanced/rfwdqhak/",
+      },
+    ],
   },
+  { text: "Serve 服务端", link: "/serve/", icon: "icon-fuwuduanpeizhi" },
+  { text: "DevOps 运维", link: "/devops/", icon: "icon-yunweiguanli" },
   {
-    text: "🌐 框架生态",
-    link: "/frameworks-ecosystem/2e95sxbz/",
-    activeMatch: "/frameworks-ecosystem/",
-  },
-  {
-    text: "⚙️ 工程化",
-    link: "/engineering-tooling/",
-    activeMatch: "/engineering-tooling/",
-  },
-  {
-    text: "📦️ 多端",
-    link: "/cross-platform/xwnvrxjz/",
-    activeMatch: "/cross-platform/",
-  },
-  {
-    text: "🚀 前沿",
-    link: "/advanced-future-tech/a7lo9rj8/",
-    activeMatch: "/advanced-future-tech/",
-  },
-
-  // {
-  //   text: "⚙️ 工程化与架构",
-  //   link: "/engineering/",
-  //   activeMatch: "/engineering/",
-  // },
-  // {
-  //   text: "🏗️ 框架与组件开发",
-  //   link: "/components/",
-  //   activeMatch: "/components/",
-  // },
-  // { text: "🖥️ 服务端与全栈", link: "/serve/", activeMatch: "/serve/" },
-  // { text: "📦 工具资源库", link: "/tools/", activeMatch: "/tools/" },
-  {
-    text: "✨️ 更多",
+    text: "更多",
+    icon: "icon-chuangyizhan",
     activeMatch: "/more/",
     items: [
       {
-        text: "🔖 书签",
+        text: "书签",
+        icon: "icon-shuqian-",
         link: "/more/bookmark/",
       },
       {
-        text: "前端面试集锦 ",
+        text: "前端面试 ",
+        icon: "icon-xiangfa",
         link: "/more/interview/",
+      },
+      {
+        text: "我的书籍 ",
+        icon: "icon-shuji",
+        link: "/more/ebook/",
       },
     ],
   },
