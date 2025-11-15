@@ -60,6 +60,19 @@ export default plumeTheme({
   /* 文章字数统计、阅读时间，设置为 false 则禁用 */
   // readingTime: true,
 
+  markdown: {
+    icon: {
+      provider: "iconfont",
+      prefix: "iconfont ",
+      assets: [
+        // lx-knowledge
+        "//at.alicdn.com/t/c/font_5065952_9noef9y3lmq.css",
+        // lx-knowledge-color
+        "//at.alicdn.com/t/c/font_5065954_kbop7wtup8p.css",
+      ],
+    },
+  },
+
   /**
    * markdown
    * @see https://theme-plume.vuejs.press/config/markdown/
