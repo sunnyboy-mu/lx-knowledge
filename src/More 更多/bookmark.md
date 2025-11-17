@@ -320,10 +320,16 @@ permalink: /more/bookmark/
       使用 JavaScript、HTML 和 CSS 构建跨平台桌面应用程序
   </LinkCard>
   <LinkCard 
+    title="NativeScript-Vue" 
+    icon="https://www.faviconextractor.com/favicon/nativescript-vue.org" 
+    href="https://nativescript-vue.org/" >
+      一个渐进的Node.js框架，用于构建高效、可靠和可扩展的服务器端应用程序
+  </LinkCard>
+  <LinkCard 
     title="NestJS" 
     icon="https://www.faviconextractor.com/favicon/nestjs.com" 
     href="https://nestjs.com/" >
-      一个渐进的Node.js框架，用于构建高效、可靠和可扩展的服务器端应用程序
+      令人愉快的移动应用程序开发；Vue 的自定义渲染器 + NativeScript 原生引擎
   </LinkCard>
   <LinkCard 
     title="微信小程序" 

@@ -68,6 +68,11 @@ export default defineNavbarConfig([
         icon: "icon-shuji",
         link: "/more/ebook/",
       },
+      {
+        text: "软考指南",
+        icon: "icon-xiangfa",
+        link: "https://www.doubao.com/share/code/e79514bd8a53eb18",
+      },
     ],
   },
 ]);
