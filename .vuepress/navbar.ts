@@ -18,7 +18,7 @@ export default defineNavbarConfig([
         text: "核心基础",
         icon: "icon-xingqiu",
         activeMatch: "/core/",
-        link: "core/90j9jwqp/",
+        link: "core/overview/",
       },
       {
         text: "框架生态",
@@ -67,6 +67,11 @@ export default defineNavbarConfig([
         text: "我的书籍 ",
         icon: "icon-shuji",
         link: "/more/ebook/",
+      },
+      {
+        text: "软考指南",
+        icon: "icon-xiangfa",
+        link: "https://www.doubao.com/share/code/e79514bd8a53eb18",
       },
     ],
   },

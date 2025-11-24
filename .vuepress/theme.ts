@@ -71,6 +71,7 @@ export default plumeTheme({
         "//at.alicdn.com/t/c/font_5065954_1hq7yqz7mi0j.css",
       ],
     },
+    demo: true,
   },
 
   /**
@@ -128,17 +129,14 @@ export default plumeTheme({
    * 评论 comments
    * @see https://theme-plume.vuejs.press/guide/features/comments/
    */
-  // comment: {
-  //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-  //   comment: true,
-  //   repo: '',
-  //   repoId: '',
-  //   category: '',
-  //   categoryId: '',
-  //   mapping: 'pathname',
-  //   reactionsEnabled: true,
-  //   inputPosition: 'top',
-  // },
+  comment: {
+    provider: "Giscus", // "Artalk“ | "Giscus" | "Twikoo" | "Waline"
+    comment: true,
+    repo: "sunnyboy-mu/lx-knowledge",
+    repoId: "R_kgDOQMLe0g",
+    category: "Announcements",
+    categoryId: "DIC_kwDOQMLe0s4Cx0Ep",
+  },
 
   /**
    * 资源链接替换
