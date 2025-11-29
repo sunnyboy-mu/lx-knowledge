@@ -54,9 +54,9 @@ export default defineNavbarConfig([
     activeMatch: "/more/",
     items: [
       {
-        text: "书签",
+        text: "书签导航",
         icon: "icon-shuqian-",
-        link: "/more/bookmark/",
+        link: "https://github.com/sunnyboy-mu/i-nav/",
       },
       {
         text: "前端面试 ",
