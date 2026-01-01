@@ -17,6 +17,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "http-server": "^14.1.1",
+    "sass-embedded": "^1.97.1",
     "tsconfig-vuepress": "^7.0.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
