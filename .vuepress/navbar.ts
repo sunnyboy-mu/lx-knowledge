@@ -54,9 +54,9 @@ export default defineNavbarConfig([
     activeMatch: "/more/",
     items: [
       {
-        text: "书签",
+        text: "书签导航",
         icon: "icon-shuqian-",
-        link: "/more/bookmark/",
+        link: "https://github.com/sunnyboy-mu/i-nav/",
       },
       {
         text: "前端面试 ",
@@ -72,6 +72,11 @@ export default defineNavbarConfig([
         text: "软考指南",
         icon: "icon-xiangfa",
         link: "https://www.doubao.com/share/code/e79514bd8a53eb18",
+      },
+      {
+        text: "若志 • 随笔",
+        icon: "https://q1.qlogo.cn/g?b=qq&nk=80360650&s=100",
+        link: "https://rz.sb/",
       },
     ],
   },

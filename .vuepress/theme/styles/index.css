@@ -42,3 +42,77 @@
     transition: background-color var(--vp-t-color);
   }
 }
+
+.page-ebook .image-container img {
+  object-fit: fill;
+}
+
+/* 代码块美化 */
+
+/* 行号-代码块 */
+.line-numbers-mode {
+  --vp-code-block-bg: #2e2e39;
+  --vp-code-line-number-color: #c2c2c4;
+  --vp-code-block-divider-color: #2e2e39;
+  --vp-code-block-color: #c2c2c4;
+}
+.vp-code,
+.line-numbers {
+  padding-top: 36px !important;
+  padding-bottom: 4px !important;
+}
+.vp-code::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0px;
+  width: 12px;
+  height: 12px;
+  background: #ff5f56;
+  border-radius: 50%;
+  box-shadow:
+    20px 0 0 #ffbd2e,
+    40px 0 0 #27c93f;
+  filter: brightness(0.9) saturate(1.2);
+  z-index: 3;
+}
+
+.vp-code code {
+  padding: 0 12px !important;
+}
+
+.vp-code::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  background: #3a3a46;
+  pointer-events: none;
+}
+
+.line-numbers::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -1px;
+  height: 32px;
+  background: #3a3a46;
+  pointer-events: none;
+}
+
+.vp-copy-code-button {
+  top: 2.8em !important;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.vp-copy-code-button::before {
+  font-size: 1rem;
+}
+
+.vp-copy-code-button.copied::after {
+  display: none;
+}
